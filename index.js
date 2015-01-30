@@ -3,7 +3,7 @@
 var pruno = module.parent.require('pruno');
 
 function PublishTask(params) {
-  this.params = (this.params || {});
+  this.params = (params || {});
 }
 
 PublishTask.displayName = 'PublishTask';
