@@ -38,4 +38,4 @@ function pkg(pkgName, path) {
   return './node_modules/' + pkgName + '/' + path;
 }
 
-module.exports = PublishTask;
+module.exports = pruno.extend(PublishTask);
