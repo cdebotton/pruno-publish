@@ -1,0 +1,24 @@
+{
+  "name": "pruno-publish",
+  "version": "1.0.0",
+  "description": "A lightweight mix for copying assets to your distribution directory.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cdebotton/pruno-publish.git"
+  },
+  "keywords": [
+    "pruno",
+    "assets",
+    "publish"
+  ],
+  "author": "Christian de Botton <debotton@brooklynunited.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdebotton/pruno-publish/issues"
+  },
+  "homepage": "https://github.com/cdebotton/pruno-publish"
+}
