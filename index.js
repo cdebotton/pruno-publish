@@ -1,7 +1,5 @@
 "use strict";
 
-var pruno = module.parent.require('pruno');
-
 function PublishTask(params) {
   this.params = (params || {});
 }
@@ -38,4 +36,4 @@ function pkg(pkgName, path) {
   return './node_modules/' + pkgName + '/' + path;
 }
 
-module.exports = pruno.extend(PublishTask);
+module.exports = PublishTask;
