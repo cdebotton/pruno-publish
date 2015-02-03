@@ -22,7 +22,7 @@ PublishTask.prototype.enqueue = function(gulp, params) {
     var sources = Array.isArray(params.src) ? params.src : [params.src];
     if (params.pkg) {
       sources = sources.map(function(src) {
-        pkg(params.pkg, src);
+        return pkg(params.pkg, src);
       });
     }
 
