@@ -1,6 +1,6 @@
 {
   "name": "pruno-publish",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lightweight mix for copying assets to your distribution directory.",
   "main": "index.js",
   "scripts": {
