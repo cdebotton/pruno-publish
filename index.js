@@ -9,9 +9,8 @@ PublishTask.displayName = 'PublishTask';
 PublishTask.getDefaults = function() {
   return {
     pkg: false,
-    src: [
-      '::src/assets/**/*'
-    ],
+    src: ['::src/assets/**/*'],
+    search: ['::src/assets/**/*'],
     dist: '::dist'
   };
 };
